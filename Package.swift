@@ -22,8 +22,8 @@ var targets: [Target] = [
 let package = Package(
     name: "WebsocketActorSystem",
     platforms: [
-        .macOS(.v13),
-        .iOS(.v16),
+        .macOS(.v12),
+        .iOS(.v15),
     ],
     products: [
         .library(
